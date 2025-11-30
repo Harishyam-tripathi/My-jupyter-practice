@@ -1,3 +1,4 @@
 SELECT * FROM USERS;
-INSERT INTO users VALUES
-('hari@sqlquerry.com', 1, 'shyam', 'male', '03-03-2000', default);
+-- select * from users where gender='female';
+-- select * from users where id<=10;
+select * from users where date_of_birth between '1990-09-09' and '1999-09-09';
