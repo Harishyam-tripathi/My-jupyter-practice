@@ -1,4 +1,3 @@
-
  SELECT email, gender FROM users;
  --  Renaming a Table
  rename table users to programmers;
