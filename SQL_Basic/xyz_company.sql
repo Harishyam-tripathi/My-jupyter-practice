@@ -1,0 +1,26 @@
+CREATE DATABASE XYZ_COMPANY;
+USE XYZ_COMPANY;
+
+CREATE TABLE employee(
+ID INT PRIMARY KEY,
+NAME VARCHAR(100),
+SALARY INT
+);
+
+ INSERT INTO employee
+ (id, name, salary)
+ VALUES
+ (1,"SHYAM",25000),
+ (2,"HARI",30000),
+ (3,"ADITYA",50000);
+ 
+SELECT * FROM xyz_company.employee;
+
+CREATE TABLE emp(
+id INT,
+salary INT default (25000)
+);
+
+INSERT INTO emp (id) VALUES (101);
+SELECT * FROM emp;
+ 

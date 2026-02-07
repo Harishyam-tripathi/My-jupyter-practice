@@ -6,6 +6,8 @@ insert into techpile_employee (name,email_id,salary)
 value ('Techpile','techpile@gmail.com',60000);
 
 insert into techpile_employee values('Sonam',9838841663, 'sonam@gmail.com',2000,'2026-01-30','male','lucknow');
+select * from db_techpile.techpile_employee;
+select name, salary from db_techpile.techpile_employee;
 
 
 constraints -> primary key -> no duplicate entery 
